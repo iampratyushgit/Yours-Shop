@@ -105,11 +105,17 @@ header {
 
 .cta-button:hover,
 .newsletter-form button:hover {
-    background-color: blue;
-    color: black;
+    background-color: rgb(255, 204, 34);
+    color: rgb(255, 255, 255);
     text-decoration: underline;
 }
 
+.cta-button:active,
+.newsletter-form button:active{
+    background-color: black;
+    color: rebeccapurple;
+    text-decoration: none;
+}
 .hero-content p {
     margin-bottom: 2rem;
 }
